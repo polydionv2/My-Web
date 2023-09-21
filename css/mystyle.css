@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 body{
-    background: #FFBBCC;
-    color: black;
+    background: #EDB7ED;
+    font-family: 'Itim', cursive;
+    color: white;
 }
 h2 {
     text-align: center;
-    font-size: 26pt;
+    font-size: 20pt;    
     }
 h4 {
     text-align: left;
@@ -20,24 +23,28 @@ p {
     }
 h1{
     text-align: center;
-    color:#fff
+    color:#82A0D8;
 }
 a{
-    font-size: 40px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+    
 }
 table{
-    margin-left: auto;
-  margin-right: auto;
-} 
+    border: 5px solid #ECEE81;
+    font-size: 50px;
+    color: #000;
+    background-color: #82A0D8;
+}
+td{
+    border: 3px solid #ECEE81;
+}
+img{
+    border: 2px solid #ECEE81;
+}
 .topic{
-    color:rgb(15, 253, 86);
-    font-family:Arial;
-    font-weight:bold;
+    color:rgb(13, 0, 255);
+    font: weight 400px;
     text-align:center
     }
-#topic{
-    color:rgb(115, 104, 211);
-    font-family:Arial;
-    font-weight:bold;
-    text-align:center
-}
